@@ -65,7 +65,7 @@ body,html{
     padding: 0px 15px;
 }
 .hero{
-    background-image: url('/images/Banner\ Image.png');
+    background-image: url('/images/Banner.png');
     background-repeat: no-repeat;
     background-size: cover;
     text-align: center;
