@@ -14,10 +14,124 @@ font-family: 'Work Sans', sans-serif; */
     --white-color: #fff;
     
 }
-
-
+ul,a {
+    text-decoration: none;
+    list-style-type: none;
+}
+body{
+    padding:0px;
+    margin:0px;
+    font-family: 'Inter', sans-serif;
+}
 
 
   /* universal style  */
 
 /* common style  */
+.primary-color{
+    color:var(--primary-color);
+}
+.container{
+    margin: 60px 140px;
+}
+.text-white{
+    color:white;
+}
+
+/* nav menu style  */
+.nav-menu{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 130px ;
+    background-color: #f7f7f7;
+}
+.nav-items{
+    display: flex;
+}
+.nav-item{
+    padding: 0px 15px;
+}
+.hero{
+    background-image: url('/images/Banner\ Image.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    height: 80vh;
+    border-radius: 20px;
+}
+.hero-overlay{
+    border-radius: 16px;
+    /* background:red; */
+    background: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%);
+    height: 100%;
+    width: 100%;
+
+}
+.hero-subtitle{
+    font-family: Merriweather;
+    font-size: 32px;
+    font-weight: 400;
+    align-items: center;
+    padding-top:177px;
+}
+.hero-title{
+    font-family: Merriweather;
+    font-size: 72px;
+    font-weight: 900;
+    line-height: 95px;
+    padding-bottom: 177px;
+}
+
+/* discount section style  */
+.discount-content{
+    text-align: center;
+}
+.discount-title{
+    font-size:88px;
+    font-weight: 700;
+}
+.discount-description{
+    font-size: 24px;
+    font-weight: 500;
+}
+.discount-subtitle{
+    font-size: 48px;
+    font-weight: 700;
+}
+/* Midnight Party section  */
+.midnight-party{
+    background-image: url(../images/Vectorrr.png);
+    background-repeat: none;
+    background-size:cover;
+    color:white;
+}
+.midnight-overlay{
+    background: linear-gradient(90deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%);
+    height: 100%;
+    width: 100%;
+    display: flex;
+}
+.midnight-content{
+    padding:125px 120px;
+    width: 40%;
+}
+.midnight-content a {
+    font-size: 20px;
+}
+.midnight-title{
+    /* padding-top:125px; */
+}
+.midnight-title{
+    font-size: 64px;
+}
+.midnight-description{
+    font-size: 18px;
+    color: rgba(255, 255, 255, 0.80);
+    font-size: 18px;
+    font-weight: 400;
+
+}
+.midnight-img {
+    margin-top:100px;
+    margin-left:70px;
+}
